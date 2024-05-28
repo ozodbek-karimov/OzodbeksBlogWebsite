@@ -1,76 +1,669 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ozodbek Karimov- Android Developer from Warsaw</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Barlow:wght@600;700&family=Open+Sans:wght@400;500;700&family=Poppins:wght@400;600&display=swap"
+    rel="stylesheet">
 </head>
-<body>
-    <div class="landing-page">
-        <header>
-<div class="container">
-    <a href="#" class="logo">Ozodbek's Blog <b>Website</b></a>
-    <ul class="links">
-        <li><a href="#">Home</a></li>
-        <li><a href="contact/index.html">Contact</a></li>
-        <li><a href="experience/index.html">Work</a></li>
-        <li><a href="#">Info</a></li>
-        <li id='getstarted'><a href="#">Get Started</a></li>
-    </ul>
-</div>
 
-        </header>
-        <div class="content">
-          <div class="container">
-            <div class="info">
-              <h1>Android Developer</h1>
-              <p>What to check out my background ?</p>
-              <button>Learn more</button>
-            </div>
-            <div class="image">
-              <img src="https://img.freepik.com/free-vector/source-code-concept-illustration_114360-5487.jpg?size=626&ext=jpg&ga=GA1.1.1936599582.1713540616&semt=ais">
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- End Landing Page -->
+<body id="top">
 
+  <!-- 
+    - #HEADER
+  -->
 
- <footer class="footer">
-    <div class="waves">
-      <div class="wave" id="wave1"></div>
-      <div class="wave" id="wave2"></div>
-      <div class="wave" id="wave3"></div>
-      <div class="wave" id="wave4"></div>
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#">
+        <h1 class="logo">Ozodbek Karimov</h1>
+      </a>
+
+      <button class="nav-toggle-btn" aria-label="Toggle Menu" data-nav-toggle-btn>
+        <ion-icon name="menu-outline" class="menu-icon"></ion-icon>
+        <ion-icon name="close-outline" class="close-icon"></ion-icon>
+      </button>
+
+      <nav class="navbar container">
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#home" class="navbar-link" data-nav-link>Home</a>
+          </li>
+
+          <li>
+            <a href="#about" class="navbar-link" data-nav-link>About</a>
+          </li>
+
+          <li>
+            <a href="#portfolio" class="navbar-link" data-nav-link>Portfolio</a>
+          </li>
+
+          <li>
+            <a href="#skills" class="navbar-link" data-nav-link>Skills</a>
+          </li>
+
+          <li>
+            <a href="#contact" class="navbar-link" data-nav-link>Contact</a>
+          </li>
+
+          <li>
+            <a href="#blog" class="navbar-link" data-nav-link>News</a>
+          </li>
+
+          <li>
+            <a href="./assets/files/Ozodbek_Karimov_resume.pdf" class="btn btn-primary" download="Ozodbek_Karimov_Resume.pdf">Download CV</a>
+          </li>
+          
+
+        </ul>
+      </nav>
+
     </div>
-    <ul class="social-icon">
-      <li class="social-icon__item"><a class="social-icon__link" href="#">
-          <ion-icon name="logo-facebook"></ion-icon>
-        </a></li>
-      <li class="social-icon__item"><a class="social-icon__link" href="#">
-          <ion-icon name="logo-twitter"></ion-icon>
-        </a></li>
-      <li class="social-icon__item"><a class="social-icon__link" href="#">
-          <ion-icon name="logo-linkedin"></ion-icon>
-        </a></li>
-      <li class="social-icon__item"><a class="social-icon__link" href="#">
-          <ion-icon name="logo-instagram"></ion-icon>
-        </a></li>
-    </ul>
-    <ul class="menu">
-      <li class="menu__item"><a class="menu__link" href="#">Home</a></li>
-      <li class="menu__item"><a class="menu__link" href="#">About</a></li>
-      <li class="menu__item"><a class="menu__link" href="#">Services</a></li>
-      <li class="menu__item"><a class="menu__link" href="#">Team</a></li>
-      <li class="menu__item"><a class="menu__link" href="./contact/index.html">Contact</a></li>
+  </header>
 
-    </ul>
-     <p>&copy; 2024 Ozodbek's Blog Webpage. All rights reserved. </p>
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="hero" id="home">
+        <div class="container">
+
+          <div class="hero-banner">
+
+            <img src="./assets/images/hero-banner.jpg" width="800" height="864" loading="lazy" alt="Ozodbek's Photo"
+              class="img-cover">
+
+            <div class="elem elem-1">
+              <p class="elem-title">3+</p>
+
+              <p class="elem-text">Years of Experience</p>
+            </div>
+
+            <div class="elem elem-2">
+              <p class="elem-title">10+</p>
+
+              <p class="elem-text">Real Projects</p>
+            </div>
+
+            <div class="elem elem-3">
+              <ion-icon name="trophy"></ion-icon>
+            </div>
+
+        
+
+          </div>
+
+          <div class="hero-content">
+
+            <h2 class="hero-title">
+              <span>Hello I'm</span>
+              <strong>Ozodbek Karimov</strong> Android Developer from Warsaw
+            </h2>
+
+            <p class="hero-text">
+              Passionate about building innovative applications that make a difference. With extensive experience in Android development, I create user-friendly and efficient mobile solutions.
+            </p>
+
+            <div class="btn-group">
+              <a href="#contact" class="btn btn-primary blue">Get a Quote</a>
+
+              <a href="#about" class="btn">About Me</a>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about" id="about">
+        <div class="container">
+
+          <figure class="about-banner">
+
+            <img src="./assets/images/about-banner.jpg" width="800" height="652" loading="lazy" alt="Ozodbek's Photo"
+              class="img-cover">
+
+            <img src="./assets/images/absolute-image.jpg" width="800" height="717" loading="lazy" alt="Ozodbek's Photo"
+              class="abs-img">
+
+            <div class="abs-icon abs-icon-1">
+              <img src="./assets/images/java_logo.png" alt="Java Logo" style="width: 100px; height: 90px;">
+            </div>
+
+            <div class="abs-icon abs-icon-2">
+              <img src="./assets/images/kotlin_logo.jpeg" alt="Java Logo" style="width: 80px; height:90px;">
+            </div>
+
+            <div class="abs-icon abs-icon-3">
+              <img src="./assets/images/comose_logo.png" alt="Java Logo" style="width: 100px; height: 90px;">
+            </div>
+
+          </figure>
+
+          <div class="about-content">
+
+            <p class="section-subtitle">I'm a Software Engineer</p>
+
+            <h2 class="h2 section-title">I Develop Android Application that Help People</h2>
+
+            <p class="section-text">
+              With a passion for coding and problem-solving, I develop innovative Android applications that enhance user experiences and meet business needs.
+            </p>
+
+            <p class="section-text">
+              I specialize in using modern technologies such as Java, Kotlin, and Jetpack Compose to build scalable and efficient applications.
+            </p>
+
+            <a href="#portfolio" class="btn btn-primary blue">View Portfolio</a>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #PORTFOLIO
+      -->
+
+      <section class="section portfolio" id="portfolio">
+        <div class="container">
+
+          <p class="section-subtitle">Portfolio</p>
+
+          <h2 class="h2 section-title">My Amazing Works</h2>
+
+          <p class="section-text">
+            Explore a collection of my best projects, showcasing my skills in Android development, design, and innovation. Each project demonstrates my ability to solve complex problems and create user-friendly applications.
+          </p>
+
+          <ul class="portfolio-list">
+
+
+            <li>
+              <a href="#" class="portfolio-card" style="background-image: url('./assets/images/builders.jpeg')">
+                <div class="card-content">
+
+                  <p class="card-subtitle">Profex</p>
+
+                  <h3 class="h3 card-title">Android Application for Searching Daily Jobs for Masters</h3>
+
+                  <span class="btn-link">
+                    <span>View Project</span>
+
+                    <ion-icon name="arrow-forward"></ion-icon>
+                  </span>
+
+                </div>
+              </a>
+            </li>
+
+
+            <li>
+              <a href="#" class="portfolio-card" style="background-image: url('./assets/images/domplan_banner.jpeg')">
+                <div class="card-content">
+
+                  <p class="card-subtitle">Domplan</p>
+
+                  <h3 class="h3 card-title">Android Application for House Service</h3>
+
+                  <span class="btn-link">
+                    <span>View Project</span>
+
+                    <ion-icon name="arrow-forward"></ion-icon>
+                  </span>
+
+                </div>
+              </a>
+            </li>
+
+        
+
+            <li>
+              <a href="#" class="portfolio-card" style="background-image: url('./assets/images/football.jpeg')">
+                <div class="card-content">
+
+                  <p class="card-subtitle">Click Score</p>
+
+                  <h3 class="h3 card-title">Android Application for Football News</h3>
+
+                  <span class="btn-link">
+                    <span>View Project</span>
+
+                    <ion-icon name="arrow-forward"></ion-icon>
+                  </span>
+
+                </div>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="portfolio-card" style="background-image: url('./assets/images/note.jpeg')">
+                <div class="card-content">
+
+                  <p class="card-subtitle">NoteToDo Compose</p>
+
+                  <h3 class="h3 card-title">Android Application for taking Notes</h3>
+
+                  <span class="btn-link">
+                    <span>View Project</span>
+
+                    <ion-icon name="arrow-forward"></ion-icon>
+                  </span>
+
+                </div>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SKILLS
+      -->
+
+      <section class="section skills" id="skills">
+        <div class="container">
+
+          <p class="section-subtitle">My Skills</p>
+
+          <h2 class="h2 section-title">I develop my skills regularly</h2>
+
+          <p class="section-text">
+            I continuously enhance my skills and knowledge to stay updated with the latest trends in technology and software development.
+          </p>
+
+          <ul class="skills-list">
+
+            <li class="skills-item">
+              <div class="wrapper" style="width: 98%">
+                <h3 class=" skills-title">Java</h3>
+
+                <data class="skills-data" value="98">98%</data>
+              </div>
+
+              <div class="skills-progress-box">
+                <div class="skills-progress" style="width: 98%"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="wrapper" style="width: 100%">
+                <h3 class="skills-title">Kotlin</h3>
+
+                <data class="skills-data" value="100">100%</data>
+              </div>
+
+              <div class="skills-progress-box">
+                <div class="skills-progress" style="width: 100%"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="wrapper" style="width: 90%">
+                <h3 class="skills-title">Coroutines</h3>
+
+                <data class="skills-data" value="90">90%</data>
+              </div>
+
+              <div class="skills-progress-box">
+                <div class="skills-progress" style="width: 90%"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="wrapper" style="width: 90%">
+                <h3 class="skills-title">Jetpack Compose</h3>
+
+                <data class="skills-data" value="90">90%</data>
+              </div>
+
+              <div class="skills-progress-box">
+                <div class="skills-progress" style="width: 90%"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="wrapper" style="width: 70%">
+                <h3 class="skills-title">Compose MultiPlatform</h3>
+
+                <data class="skills-data" value="70">70%</data>
+              </div>
+
+              <div class="skills-progress-box">
+                <div class="skills-progress" style="width: 70%"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="wrapper" style="width: 95%">
+                <h3 class="skills-title">Dependency Injection</h3>
+
+                <data class="skills-data" value="95">95%</data>
+              </div>
+
+              <div class="skills-progress-box">
+                <div class="skills-progress" style="width: 95%"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="wrapper" style="width: 100%">
+                <h3 class="skills-title">Android SKS</h3>
+
+                <data class="skills-data" value="100">100%</data>
+              </div>
+
+              <div class="skills-progress-box">
+                <div class="skills-progress" style="width: 100%"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="wrapper" style="width: 95%">
+                <h3 class="skills-title">Google Firebase</h3>
+
+                <data class="skills-data" value="100">950%</data>
+              </div>
+
+              <div class="skills-progress-box">
+                <div class="skills-progress" style="width: 95%"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="wrapper" style="width: 100%">
+                <h3 class="skills-title">Architectural Patterns</h3>
+
+                <data class="skills-data" value="100">100%</data>
+              </div>
+
+              <div class="skills-progress-box">
+                <div class="skills-progress" style="width: 100%"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="wrapper" style="width: 95%">
+                <h3 class="skills-title">Design Patterns</h3>
+
+                <data class="skills-data" value="95">95%</data>
+              </div>
+
+              <div class="skills-progress-box">
+                <div class="skills-progress" style="width: 95%"></div>
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #CONTACT
+      -->
+
+      <section class="section contact" id="contact">
+        <div class="container">
+
+          <div class="contact-card">
+
+            <p class="card-subtitle">Don't be shy</p>
+
+            <h2 class="h2 section-title">Drop Me a Line</h2>
+
+            <div class="wrapper">
+
+              <form action="" class="contact-form">
+
+                <input type="text" name="name" placeholder="Name" required class="contact-input">
+
+                <input type="email" name="email" placeholder="Email" required class="contact-input">
+
+                <textarea name="message" placeholder="Message" required class="contact-input"></textarea>
+
+                <button type="submit" class="btn-submit">Submit Message</button>
+
+              </form>
+
+              <ul class="contact-list">
+
+                <li class="contact-item">
+
+                  <div class="contact-icon">
+                    <ion-icon name="location"></ion-icon>
+                  </div>
+
+                  <div>
+                    <h3 class="contact-item-title">Address</h3>
+
+                    <address class="contact-item-link">
+                      50, Warsaw, Poland
+                    </address>
+                  </div>
+
+                </li>
+
+                <li class="contact-item">
+
+                  <div class="contact-icon">
+                    <ion-icon name="mail"></ion-icon>
+                  </div>
+
+                  <div>
+                    <h3 class="contact-item-title">Email</h3>
+
+                    <a href="mailto:mr.ozodbek.karimov@gmail.com" class="contact-item-link">mr.ozodbek.karimov@gmail.com</a>
+                  </div>
+
+                </li>
+
+                <li class="contact-item">
+
+                  <div class="contact-icon">
+                    <ion-icon name="call"></ion-icon>
+                  </div>
+
+                  <div>
+                    <h3 class="contact-item-title">Phone</h3>
+
+                    <a href="tel:+48579101372" class="contact-item-link">+48 579 101 372</a>
+                  </div>
+
+                </li>
+
+              </ul>
+
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #BLOG
+      -->
+
+      <section class="section blog" id="blog">
+        <div class="container">
+
+          <p class="section-subtitle">Latest News</p>
+
+          <h2 class="h2 section-title">Checkout Recent News Relate to Androoid Development</h2>
+
+          <p class="section-text">
+            Discover the latest trends and insights in Android development, Kotlin, and more. Stay updated with our recent blog posts and news.
+          </p>
+
+          <ul class="blog-list">
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner">
+                  <a href="#">
+                    <img src="./assets/images/news_icon1.png" width="1181" height="843" loading="lazy"
+                      alt="Jim Morisson Says when the musics over turn off the light" class="img-cover">
+                  </a>
+                </figure>
+
+                <a href="#" class="card-tag">Android Development</a>
+
+                <h3 class="card-title">
+                  <a href="#">KotlinConf 2024: The Future of Kotlin Development and Innovations</a>
+                </h3>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner">
+                  <a href="#">
+                    <img src="./assets/images/news_image2.png" width="1181" height="843" loading="lazy"
+                      alt="Jim Morisson Says when the musics over turn off the light" class="img-cover">
+                  </a>
+                </figure>
+
+                <a href="#" class="card-tag">Android Development</a>
+
+                <h3 class="card-title">
+                  <a href="#">Compose Multiplatform: Building Seamless Experiences Across Devices</a>
+                </h3>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner">
+                  <a href="#">
+                    <img src="./assets/images/news_image3.png" width="1181" height="843" loading="lazy"
+                      alt="Jim Morisson Says when the musics over turn off the light" class="img-cover">
+                  </a>
+                </figure>
+
+                <a href="#" class="card-tag">Android Development</a>
+
+                <h3 class="card-title">
+                  <a href="#">Kotlin Multiplatform: Revolutionizing Cross-Platform Development</a>
+                </h3>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+  <footer class="footer">
+    <div class="container">
+      <ul class="social-icon">
+        <li class="social-icon__item"><a class="social-icon__link" href="#">
+            <ion-icon name="logo-facebook"></ion-icon>
+          </a></li>
+        <li class="social-icon__item"><a class="social-icon__link" href="#">
+            <ion-icon name="logo-twitter"></ion-icon>
+          </a></li>
+        <li class="social-icon__item"><a class="social-icon__link" href="https://www.linkedin.com/in/ozodbek-karimov/">
+            <ion-icon name="logo-linkedin"></ion-icon>
+          </a></li>
+        <li class="social-icon__item"><a class="social-icon__link" href="#">
+            <ion-icon name="logo-instagram"></ion-icon>
+          </a></li>
+      </ul>
+  
+      <p class="copyright">
+        &copy; 2024 <a href="#" class="copyright-link">Ozodbek's Blog</a>. All Rights Reserved
+      </p>
+  
+      <ul class="footer-list">
+        <li>
+          <a href="#" class="footer-link">Terms & Condition</a>
+        </li>
+        <li>
+          <a href="#" class="footer-link">Privacy Policy</a>
+        </li>
+      </ul>
+    </div>
   </footer>
+  
+  <!-- 
+    - #BACK TO TOP
+  -->
+  
+  <a href="#top" class="back-to-top" data-back-to-top>BACK TOP</a>
+  
+  <!-- custom js link -->
+  <script src="./assets/js/script.js"></script>
+  
+  <!-- ionicon link -->
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-<div class="landing-page">
-
-</body>
-</html>
+  </body>
+  </html>
+  

@@ -1,0 +1,181 @@
+Ethan Ward - Web Developer from New York
+
+
+
+#---------- HEADER ----------#
+
+Ethan Ward
+
+aria-label = Toggle Menu
+
+<ion-icon name="menu-outline"></ion-icon>
+<ion-icon name="close-outline"></ion-icon>
+
+Home
+About
+Portfolio
+Skills
+Contact
+Blog
+
+Download CV
+
+
+
+#---------- HERO ----------#
+
+alt = Ozodbek's Photo
+
+3
+Years of Success
+
+10+
+Real Projects
+
+<ion-icon name="trophy"></ion-icon>
+
+alt = I'm developer from Warsaw
+
+Hello I'm
+
+Ozodbek Karimov
+
+Android Developer from Warsaw
+
+Adipisicing elit. Neque nulla voluptatum eos repellat deserunt nesciunt tempore porro totam.
+
+Get a Quote
+
+About Me
+
+
+
+#---------- ABOUT ----------#
+
+alt = Ozodbek's Photo
+
+alt = Ozodbek's Photo
+
+<ion-icon name="logo-css3"></ion-icon>
+<ion-icon name="logo-javascript"></ion-icon>
+<ion-icon name="logo-angular"></ion-icon>
+
+I'm a Developer
+
+I Develop  Android Application that Help People
+
+Dliquip ex ea commo do conse namber onequa ute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatu epteur sint occaecat cupidatat
+
+Krnon proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis
+
+View Portfolio
+
+
+
+#---------- PORTFOLIO ----------#
+
+Portfolio
+
+My Amazing Works
+
+Dliquip ex ea commo do conse namber onequa ute irure dolor in reprehen derit in voluptate
+
+Youtube
+
+Android Application for Desiverse
+
+View Project 
+<ion-icon name="arrow-forward"></ion-icon>
+
+Vimeo
+
+Soundcloud
+
+Details
+
+
+
+#---------- SKILLS ----------#
+
+My Skills
+
+I Develop Skills Regularly
+
+Dliquip ex ea commo do conse namber onequa ute irure dolor in reprehen derit in voluptate
+
+Java
+98%
+
+Kotlin
+100%
+
+Corutines
+100%
+
+Jetpack Compose
+80%
+
+Kotlin MultiPlatform
+60%
+
+Dependecy Injection
+90%
+
+
+
+#---------- CONTACT ----------#
+
+Don't be shy
+
+Drop Me a Line
+
+placeholder = Name
+
+placeholder = Email
+
+placeholder = Message
+
+Submit Message
+
+<ion-icon name="location"></ion-icon>
+Address
+50, Warsaw, Poland
+
+<ion-icon name="mail"></ion-icon>
+Email
+mr.ozodbek.karimov@gmail.com
+
+<ion-icon name="call"></ion-icon>
+Phone
++48 579 101 372
+
+
+
+#---------- BLOG ----------#
+
+Latest News
+
+Checkout My Recent Blogs
+
+Dliquip ex ea commo do conse namber onequa ute irure dolor in reprehen derit in voluptate
+
+alt = Jim Morisson Says when the musics over turn off the light
+
+Android Development
+
+Jim Morisson Says when the musics over turn off the light
+
+
+
+#---------- FOOTER ----------#
+
+&copy; 2024 codewithsadee. All Rights Reseverd
+
+Terms & Condition 
+Privacy Policy
+
+
+
+#---------- BACK TO TOP ----------#
+
+BACK TOP
